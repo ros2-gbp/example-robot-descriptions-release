@@ -1,0 +1,12 @@
+Source: ros-lyrical-example-robot-descriptions
+Section: misc
+Priority: optional
+Maintainer: "Guilhem Saurel" <guilhem.saurel@laas.fr>
+Build-Depends: debhelper (>= 9.0.0), cmake, git, python3-dev, python3-numpy, ros-lyrical-coal, ros-lyrical-jrl-cmakemodules, ros-lyrical-pinocchio, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/example_robot_descriptions/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-example-robot-descriptions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-dev, python3-numpy, ros-lyrical-ament-cmake, ros-lyrical-coal, ros-lyrical-pinocchio, ros-lyrical-ros-workspace
+Description: Set of robot URDFs for benchmarking and developed examples.
